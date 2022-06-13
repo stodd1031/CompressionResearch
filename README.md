@@ -35,3 +35,12 @@ This seems more promising, but I have not found a size of Pascal's triangle(how 
 The solution seems to be a perfectly non-linear function/array of numbers that can be selected from and added up.
 Pascal's triangle is currently my best bet, but with a size and selection count that may work you need a supercomputer to compress.
 Decompression is much faster than compression.
+
+## Compilation
+Most file require "MyArr.h", and gnu multi precision(gmp).
+Most files are individual files with their own main.
+Compile with
+```
+g++ file.cpp -lgmp -lgmpxx
+```
+
